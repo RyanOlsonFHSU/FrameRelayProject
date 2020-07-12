@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<Title>Frame Relay</Title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="Project.css"/>
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+		<h1> <a href="project.html"> Frame Relay </a> </h1>
+	</header>
+		<nav>
+			<ul>
+				<li><a href="Project.html">Home</a></li>
+				<li><a href="refrences.html">Refrences</a></li>
+				
+			</ul>
+		</nav>
+	<main>
+	<div id="content">
+	<h2>Learn About Frame Relay Protocol</h2>
+	
+	
+	<p>The<span class="title"> Frame Relay Protocol</span> is a cost-efficient packet-switching networking service that allows traffic between local area networks (LANs) to  distant LANS but allows allows
+	for users to communicate aross wide area networks (WANs). Originally, frame relay was designed to transport data across Integrated Services Digital Network (ISDN) infrastructure. Over time it evolved to be used in many other network interfaces.  
+	Frame Relays are slowly being phased out and other new technology is being implemented in its place but the history of Frame Relay is still important to learn.
+	At its peak, frame relay was one of the fastest and most affordable WAN protocols. It rivaled the speed of leasing lines for dedicated service while bringing down the cost a significant amount. Frame Relay technology was
+	created to replace the older X.25 packet-switching technology. X.25 was much slower than frame relay since X.25 packet switching included error-correction functions during the transfer of data making the data transfer take 
+	much longer. Frame relay has no error correcting functions and leaves all the error correction up to the end devices to help speed up the process. However if the end device finds some kind of error, the frame relay will drop the
+	error frame and retransmit the data. Below is a list of common uses of frame relay
+	</p>
+	<ul>
+		<li>Frame relay was most commonly used for communication inside of a big wide area network</li>
+		<li>Frame relay's other main use was to send encapsulated data between land area networks that were geographically far away from eachother</li>
+		<li>Frame relay was also used by network providers in the form of Frame Relay for voice (VoFR)</li>
+
+	</ul>
+	<figure>                                             
+
+		<img src="framerelay.jpg" style="width: 100%">
+
+		<figcaption>A Frame Relay diagram from conceptdraw.com</figcaption>
+
+	</figure>
+	<br/>
+	<h2>How does Frame Relay work</h2>
+	<p>The<span class="title"> Frame Relay Protocol</span> works through the use of the physical and data-link layer or layer 1 and 2 of the OSI 7 layer model. It effenciently creates capsules of data into packages called frames and sends them to transmit the data.
+	Frame relay's magic comes in through the use of virtual circuits. In the diagram above, information is broken up into frames at the Data terminal equipment (DTE) and is then transmitted through the frame relay switches or data circuit-terminating equipment (DCE) before reaching their destination at 
+	another DTE. Virtual circuits speed up this process because all the frames are sent through a specific predetermined path and all the frames will arrive in order. Frames do not need to be numbered or error checked during frame relay tranmission as the frames will arrive in order and the end device will check for errors. 
+    The path that each frame takes is dependent on congestion of the frame relay switches and will try to pick the fastest path based on that.	The benefits and drawback of frame relay are listend below. 
+	</p>
+	<h2>Advantages and disadvantages of Frame Relay</h2>
+	<h3>Advantages of Frame Relay</h3>
+	<ul>
+		<li>The biggest advantage of frame relay over other technology at the time was simply the cost was much cheaper</li>
+		<li>Another advantage of frame relay is the amount of performace you would get without creating overly complex networks</li>
+		<li>The final advantage of frame relay is that its simplicity allowed for it to work with many other standards including international standards without creating a ton of trouble <li>
+
+	</ul>
+	<h3>Disadvantages of Frame Relay</h3>
+	<ul>
+		<li>The biggest disadvantage of Frame Relay would have to be potential congestion and congestion control. This problem is not really a disadvantage with the procol as much as it is a issue with poorly desinged networks. If too many users try to send data via frame relay without enough frame relay 
+		switches it can create congestion very fast and slow down the whole network.</li>
+		<li>The other disadvantage stems from frame relay's strive to be faster. If an frame is recieved to the end device as an error frame or if many frames are recieved as error frames, the frames are discarded. When many frames are discarded the information is retransmitted causing the overall 
+		process to take longer as well as the process taking up more bandwith and demands on the fram relay network.</li>
+		
+
+	</ul>
+	
+	<figure>                                             
+
+		<img src="framerelay2.jpg" style="width: 100%">
+
+		<figcaption>Another example of a frame relay network from the ccnablog.com </figcaption>
+
+	</figure>
+	
+	<div id="contact">
+		<span class="title">Ryan Olson</span><br/>
+		Leawood,Kansas 66209<br/><br/>
+		913-486-2532
+	</div>
+	<br/>
+	</main>
+	
+	<footer>
+	<p>
+	
+	<a href="mailto:rtolson@mail.fhsu.edu">rtolson@mail.fhsu.edu</a>
+	</p>
+	</footer>
+	</div>
+	</body>
+	</html>
+	
